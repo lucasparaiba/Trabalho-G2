@@ -2,9 +2,8 @@ from django.contrib import admin
 from eventos.models import *
 
 
-admin.site.register(Autor)
-admin.site.register(Evento)
-admin.site.register(PessoaFisica)
-admin.site.register(PessoaJuridica)
-admin.site.register(EventoCientifico)
-admin.site.register(ArtigoCientifico)
+admin.site.register(Pessoa)
+admin.site.register(Funcionario)
+admin.site.register(Horarios)
+admin.site.register(Frequencia)
+admin.site.register(justificativas)
